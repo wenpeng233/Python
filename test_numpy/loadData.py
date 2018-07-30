@@ -20,4 +20,5 @@ def loadData(fileName):
 if __name__ == "__main__":
     dataSet = loadData(r"D:\Octave\workspace\function\x.mat")
     print(dataSet)
+    print(type(dataSet))
 
